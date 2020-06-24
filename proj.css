@@ -1,0 +1,300 @@
+    *,
+    *:before,
+    *:after {
+        -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+        box-sizing: inherit;
+    }
+    
+    .amorim {
+        margin: 0;
+        background-image: url('img/Artboard_10_copy_2_b.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .andreia {
+        margin: 0;
+        background-image: url('img/Grupo_de_m_scara_4_cv_pattern.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .topnav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row!important;
+        overflow: hidden;
+        color: #1E1A34;
+        background-color: rgba(255, 255, 255, 0.32);
+    }
+    
+    .topnav a,
+    .topnav img {
+        font-weight: 600;
+        float: left;
+        display: block;
+        color: #1E1A34;
+        text-align: center;
+        padding: 15px 0;
+        text-decoration: none;
+        font-size: 40px;
+    }
+    
+    .topnav img {
+        width: 100%;
+    }
+    
+    .topnav div a {
+        padding: 15px 5px;
+    }
+    
+    .topnav div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .hover-topbar:hover {
+        border-radius: 20px 20px 20px 0;
+        background-color: #1E1A34;
+        color: #FFFFFF;
+        padding: 1rem;
+    }
+    
+    .topnav .icon {
+        display: none;
+        color: #1E1A34;
+    }
+    
+    img {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .blank {
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .main {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    
+    section {
+        background-color: #FFFFFF;
+        padding: 1rem 0 0 0;
+    }
+    
+    aside h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin: 0;
+    }
+    
+    article header p {
+        font-size: 0.8rem;
+        color: #ccc;
+        margin-top: 0;
+        font-weight: 200;
+    }
+    
+    aside article {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    
+    aside article p {
+        align-self: flex-start;
+        font-weight: 600;
+    }
+    
+    aside article p:last-child {
+        font-weight: 300;
+        margin: 0;
+    }
+    
+    aside article p:last-child span {
+        font-weight: 600;
+        font-style: italic;
+    }
+    
+    aside article img {
+        max-width: 350px;
+    }
+    
+    .imagens {
+        display: block;
+        font-size: 0;
+    }
+    
+    .nav-job {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    
+    .nav-job a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .back-next {
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        padding: 0 0 5% 0;
+    }
+    
+    .relatos-passo {
+        padding: 1rem 0 3rem 0;
+        text-align: center;
+    }
+    
+    .relatos-passo h3 {
+        margin: 0;
+        text-align: center;
+    }
+    
+    .footer-relatos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    .footer-relatos h3 {
+        font-weight: 300;
+    }
+    
+    .footer-relatos img {
+        max-width: 15px!important;
+        padding: 0.5rem;
+    }
+    
+    .footer-relatos a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        background-image: linear-gradient(#58AAB6, #6DC98E);
+    }
+    
+    footer a {
+        padding: 0 0.5rem;
+    }
+    /*Media Query*/
+    
+    @media screen and (max-width: 727px) {
+        .topnav a:not(:first-child) {
+            display: none;
+        }
+        .topnav a.icon {
+            float: right;
+            display: block;
+        }
+    }
+    
+    @media screen and (max-width: 727px) {
+        body {
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .main.responsive {
+            display: none;
+        }
+        .topnav.responsive {
+            height: 100vh;
+            position: relative;
+        }
+        .topnav {
+            background-color: rgba(255, 255, 255, 0);
+        }
+        .topnav.responsive .icon {
+            position: absolute;
+            right: 10px;
+            top: 35px;
+        }
+        .topnav.responsive a {
+            float: none;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            padding: 10px 10px 50px 10px;
+        }
+        .hover-topbar:hover {
+            background-color: #FFFFFF;
+            color: #1E1A34;
+        }
+        .logo {
+            width: 100px!important;
+            height: 80px;
+        }
+        .topnav.responsive {
+            display: block;
+            overflow: hidden;
+            color: #1E1A34;
+            background-color: #FFFFFF;
+        }
+        .logo-main {
+            display: none;
+        }
+        .blank {
+            height: 13vh;
+        }
+        .relatos-passo {
+            font-size: 1rem;
+        }
+        .titulo-trabalhamos {
+            font-size: 0.8rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 250px;
+        }
+        .footer-relatos img {
+            display: none;
+        }
+    }
+    
+    @media screen and (min-width: 728px) {
+        aside {
+            display: flex;
+            flex-flow: column;
+        }
+        aside div:nth-child(2) {
+            display: flex;
+            flex-flow: row-reverse;
+            justify-content: space-between;
+        }
+        aside article {
+            display: flex;
+            flex: 0 0 40%;
+        }
+        aside article {
+            display: flex;
+            flex: 0 0 40%;
+        }
+        .descricao {
+            width: 42%;
+        }
+    }

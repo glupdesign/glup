@@ -1,0 +1,296 @@
+html::-webkit-scrollbar {
+    display: none;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background-image: url('img/EDITADA_.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body h1,
+h2,
+h3 {
+    font-family: 'Russo One', sans-serif;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row!important;
+    overflow: hidden;
+    color: #1E1A34;
+    background-color: rgba(255, 255, 255, 0.32);
+}
+
+.topnav a,
+.topnav img {
+    font-weight: 600;
+    float: left;
+    display: block;
+    color: #1E1A34;
+    text-align: center;
+    padding: 15px 0;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.topnav img {
+    width: 100%;
+}
+
+.topnav div a {
+    padding: 15px 5px;
+}
+
+.topnav div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.hover-topbar:hover {
+    border-radius: 20px 20px 20px 0;
+    background-color: #1E1A34;
+    color: #FFFFFF;
+    padding: 1rem;
+}
+
+.topnav .icon {
+    display: none;
+    color: #1E1A34;
+}
+
+.blank {
+    height: 100vh;
+    width: 100%;
+}
+
+section {
+    background-image: url("/img/backgroung-pg-sobre.jpg");
+}
+
+section h1 {
+    padding: 5rem 0 3rem 10rem;
+    margin: 0;
+    font-size: 3rem;
+}
+
+section p {
+    padding: 0rem 0 5rem 10rem;
+    margin: 0;
+}
+
+section h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+}
+
+section h3 p {
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+aside article:last-child img {
+    max-width: 300px;
+}
+
+aside article:first-child img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+aside article {
+    display: flex;
+    flex-flow: column;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+
+aside article:first-child {
+    align-items: center;
+}
+
+aside article div:last-child {
+    align-items: flex-start;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+aside article h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.fani-name {
+    color: #DB457D;
+}
+
+.nando-name {
+    color: #59ABB4;
+}
+
+aside p {
+    margin: 0;
+    padding: 0;
+}
+
+.cat-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-image: linear-gradient(#58AAB6, #6DC98E);
+}
+
+footer a {
+    padding: 0 0.5rem;
+}
+
+
+/*Media Query*/
+
+@media screen and (max-width: 727px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 727px) {
+    body {
+        background-image: url('img/EDITADA_.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .main.responsive {
+        display: none;
+    }
+    .topnav.responsive {
+        height: 100vh;
+        position: relative;
+    }
+    .topnav {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 10px;
+        top: 35px;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 10px 10px 50px 10px;
+    }
+    .hover-topbar:hover {
+        background-color: #FFFFFF;
+        color: #1E1A34;
+    }
+    .logo {
+        width: 100px!important;
+        height: 80px;
+    }
+    .topnav.responsive {
+        display: block;
+        overflow: hidden;
+        color: #1E1A34;
+        background-color: #FFFFFF;
+    }
+    .logo-main {
+        display: none;
+    }
+    .blank {
+        height: 13vh;
+    }
+    section {
+        background-image: url("/img/backgroung-pg-sobre-cell.jpg");
+    }
+    section h1 {
+        padding: 4rem 0 1rem 1rem;
+    }
+    section p {
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    section h3 {
+        padding: 1rem 5rem 1rem 5rem;
+    }
+    section h3 p {
+        text-align: center;
+        margin: 0;
+        padding: 1rem;
+        font-size: 1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 300;
+    }
+    aside h1,
+    aside p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 728px) {
+    aside {
+        display: flex;
+        flex-flow: row-reverse;
+        justify-content: space-between;
+        padding-top: 2rem;
+    }
+    aside article {
+        display: flex;
+        flex: 0 0 40%;
+    }
+    aside article:last-child {
+        align-items: flex-end;
+    }
+    aside article:first-child {
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    aside p {
+        font-size: 0.8rem;
+    }
+}
