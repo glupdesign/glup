@@ -1,7 +1,4 @@
-    html::-webkit-scrollbar {
-        display: none;
-    }
-    
+  
     *,
     *:before,
     *:after {
@@ -59,7 +56,6 @@
         border-radius: 20px 20px 20px 0;
         background-color: #1E1A34;
         color: #FFFFFF;
-        padding: 1rem;
     }
     
     .topnav .icon {
@@ -219,7 +215,7 @@
     
     .relatos article a {
         text-decoration: none;
-        color: black;
+        color: #1E1A34;
     }
     
     .relatos article h5 {
@@ -229,6 +225,7 @@
     .relatos .foto-cliente img {
         max-width: 100px;
         max-height: 100px;
+        border-radius: 50%;
     }
     
     .relatos-passo h3 {
@@ -247,13 +244,14 @@
     
     .footer-relatos a {
         text-decoration: none;
-        color: black;
+        color: #1E1A34;
     }
     
     .sub-titulo {
         display: flex;
         flex-flow: row;
         align-items: center;
+        color: #1E1A34;
     }
     
     .sub-titulo h1 {
