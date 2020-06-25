@@ -213,7 +213,7 @@
     }
     
     @media screen and (max-width: 727px) {
-        body {
+        .amorim, .andreia {
             background-size: contain;
             background-repeat: no-repeat;
         }
