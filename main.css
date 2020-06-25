@@ -225,6 +225,9 @@
     .relatos .foto-cliente img {
         max-width: 100px;
         max-height: 100px;
+    }
+    
+    .relatos .foto-cliente{
         border-radius: 50%;
     }
     
