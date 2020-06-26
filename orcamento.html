@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <script src="navBar.js"></script>
+    <title>Sobre seu projeto | Glup</title>
+</head>
+
+<body>
+    <a href="/index.html">
+        <p> « Voltar</p>
+    </a>
+
+    <div class="start">
+        <h1>Start</h1>
+        <img src="/img/Ícone de vídeo.png" alt="">
+    </div>
+
+
+    <form action="https://formspree.io/xvowbaqz" method="POST">
+        <h2>Sobre você.</h2>
+        <div>
+            <label>
+                Olá, qual seu nome?
+                <input type="text" name="nome" required>
+            </label>
+            <label>
+                Qual seu email para contato?
+                <input type="text" name="_replyto" required>
+            </label>
+            <label>
+                Qual o seu núero de celular?
+                <input type="tel" name="telefone" placeholder="(44)4 4444 4444" required>
+            </label>
+            <label>
+                Onde você mora?
+                <input type="text" name="cidade" required>
+            </label>
+        </div>
+
+        <h2>Sobre a empresa.</h2>
+        <div>
+            <label>
+                Sua empresa tem um nome? Como se chama?
+                <input type="text" name="nome da empresa" required>
+            </label>
+            <label>
+                Quais os serviços e produtos ela vende?
+                <input type="text" name="serviços" required>
+            </label>
+            <label>
+                Ela tem site?
+                <input type="text" name="site" placeholder="Digite o seu site aqui" required>
+            </label>
+            <label>
+                Nos mostre mais sobre sua empresa, tem alguma mídia social?
+                <input type="text" name="midia social" required>
+            </label>
+            <label>
+                É um projeto novo ou redesign?
+                <input type="text" name="tipo do projeto" required>
+            </label>
+            <label>
+                Para quando precisa o seu projeto?
+                <input type="text" name="prazo" required>
+            </label>
+        </div>
+
+        <h2>Sobre o que você precisa.</h2>
+        <label>
+            Precisa de manual da marca?
+            <input type="text" name="manual" required>
+        </label>
+        <div class="checkbox">
+            Itens adicionais ao projeto
+            <div class="options">
+                <div>
+                    <input type="checkbox" name="cartaoVisita" required>
+                    <label for="cartaoVisita">Cartão de visita</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="timbrado" required>
+                    <label for="timbrado">Timbrado</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="envelopes" required>
+                    <label for="envelopes">Envelopes</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="tag" required>
+                    <label for="tag">Etiqueta/Tag</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="packPost3" required>
+                    <label for="packPost3">Pack de 3 posts</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="flyer" required>
+                    <label for="flyer">Flyer</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="cracha" required>
+                    <label for="cracha">Crachá</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="placa" required>
+                    <label for="placa">Fachada/Placa</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="packPost6" required>
+                    <label for="packPost6">Pack de 6 posts</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="uniforme" required>
+                    <label for="uniforme">Uniforme</label>
+                </div>
+            </div>
+        </div>
+
+        <label class="txt-area">
+            E finalmente, nos dê mais detalhes sobre o projeto e tamém o que precisa.
+            <textarea name="detalhes" rows="20"></textarea>
+        </label>
+        <button type="submit">Enviar meu pedido!</button>
+    </form>
+</body>
+
+</html>

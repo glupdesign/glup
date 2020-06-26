@@ -1,0 +1,150 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1% 10%;
+    background-image: url('/img/banner\ orcamento.jpg');
+    background-attachment: fixed;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+h1 {
+    margin: 0 0 1rem 0;
+    font-weight: 800;
+    font-size: 3rem;
+    font-family: 'Russo One', sans-serif;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0 3rem 0;
+}
+
+.start img {
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+form div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+label {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+}
+
+input {
+    width: 90%;
+    border: 1px solid #707070;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    border: 1px solid #707070;
+    margin: 0.5rem 0;
+}
+
+.txt-area {
+    width: 100%;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0 0 0;
+}
+
+.options {
+    width: 30%;
+}
+
+.checkbox input {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+.checkbox label {
+    width: 10rem;
+    text-align: center;
+    border-radius: 100px;
+    border: 1px solid #707070;
+    color: #1E1A34;
+    padding: 1rem 0;
+}
+
+.options div {
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    padding: 0;
+    margin: 0.5rem;
+}
+
+.checkbox input:checked+label {
+    background-color: #1E1A34;
+    color: #ffffff;
+}
+
+button {
+    width: 10rem;
+    align-self: center;
+    padding: 1.5rem 1rem;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(#58AAB6, #6DC98E);
+    color: #ffffff;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-image: url('/img/banner\ orcamento\ cell.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    form div {
+        flex-direction: column;
+    }
+    label {
+        width: 100%;
+    }
+}
