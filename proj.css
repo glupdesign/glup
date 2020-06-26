@@ -41,12 +41,13 @@
         display: block;
         color: #1E1A34;
         text-align: center;
-        padding: 15px 0;
+        padding: 0 0.8rem;
         text-decoration: none;
-        font-size: 40px;
+        font-size: 2.5rem;
     }
     
     .topnav img {
+        padding: 1rem 0;
         width: 100%;
     }
     
@@ -62,6 +63,7 @@
     }
     
     .hover-topbar:hover {
+        padding: 1rem 0.8rem;
         border-radius: 20px 20px 20px 0;
         background-color: #1E1A34;
         color: #FFFFFF;
@@ -213,7 +215,8 @@
     }
     
     @media screen and (max-width: 727px) {
-        .amorim, .andreia {
+        .amorim,
+        .andreia {
             background-size: contain;
             background-repeat: no-repeat;
         }

@@ -1,516 +1,523 @@
+  *,
+  *:before,
+  *:after {
+      -webkit-box-sizing: inherit;
+      -moz-box-sizing: inherit;
+      box-sizing: inherit;
+  }
   
-    *,
-    *:before,
-    *:after {
-        -webkit-box-sizing: inherit;
-        -moz-box-sizing: inherit;
-        box-sizing: inherit;
-    }
-    
-    body {
-        margin: 0;
-        background-image: url('img/capa__aaa.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    
-    .topnav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: row!important;
-        overflow: hidden;
-        color: #1E1A34;
-    }
-    
-    .topnav a,
-    .topnav img {
-        font-weight: 600;
-        float: left;
-        display: block;
-        color: #1E1A34;
-        text-align: center;
-        padding: 15px 0;
-        text-decoration: none;
-        font-size: 40px;
-    }
-    
-    .topnav img {
-        width: 100%;
-    }
-    
-    .topnav div a {
-        padding: 15px 5px;
-    }
-    
-    .topnav div {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: row;
-    }
-    
-    .hover-topbar:hover {
-        border-radius: 20px 20px 20px 0;
-        background-color: #1E1A34;
-        color: #FFFFFF;
-    }
-    
-    .topnav .icon {
-        display: none;
-        color: #1E1A34;
-    }
-    
-    .apresentacao-1 {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        padding-top: 2.5rem;
-    }
-    
-    .frase-1 {
-        font-size: 1rem;
-        padding: 20rem 0 20rem 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .frase-1 h1 span {
-        color: #E0457B;
-    }
-    
-    .apresentacao-2,
-    .projetos {
-        color: #FFFFFF;
-    }
-    
-    .apresentacao-2,
-    .projetos,
-    .relatos,
-    .como-trabalhamos {
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        flex-flow: column;
-        font-weight: 600;
-        font-size: 1.5rem;
-    }
-    
-    .apresentacao-2,
-    .projetos {
-        background-image: url('img/Banner-Apresentacao-2.jpg');
-    }
-    
-    .relatos {
-        background-color: white;
-    }
-    
-    .como-trabalhamos {
-        background-image: url('img/banner-como-trabalhamos.jpg');
-        background-size: contain;
-    }
-    
-    .apresentacao-2 h1,
-    .projetos h1,
-    .titulo-relatos h1,
-    .titulo-trabalhamos h1 {
-        font-family: 'Russo One', sans-serif;
-        margin: 0;
-        text-align: center;
-    }
-    
-    .titulo-aprset-2,
-    .titulo-projetos,
-    .titulo-relatos,
-    .footer-relatos,
-    .titulo-trabalhamos {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem;
-    }
-    
-    aside article {
-        display: flex;
-        flex-flow: column;
-        padding: 0 5rem;
-    }
-    
-    .mascotes {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-    }
-    
-    .avatar {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        justify-content: center;
-        flex: 0 0 40%;
-    }
-    
-    .mascotes img {
-        width: 100%;
-        max-width: 194px;
-        padding: 1rem;
-    }
-    
-    .relatos-passo {
-        text-align: center;
-    }
-    
-    .avatar div h3 {
-        margin: 0;
-    }
-    
-    .aside-left {
-        padding: 5rem 5rem 0 0;
-    }
-    
-    .foto-side {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    }
-    
-    .fani-nando-glid {
-        width: 100%;
-        max-width: 753px;
-        max-height: 756px;
-    }
-    
-    .foto-side p {
-        position: absolute;
-        bottom: 0;
-        font-weight: 400;
-        font-size: 1rem;
-    }
-    
-    .projetos aside img {
-        width: 100%;
-        max-width: 565px;
-        max-height: 514px;
-        padding: 3rem 0;
-    }
-    
-    .relatos article {
-        align-items: flex-start;
-    }
-    
-    .relatos article p {
-        font-weight: 200;
-        font-size: 1rem;
-    }
-    
-    .relatos article a {
-        text-decoration: none;
-        color: #1E1A34;
-    }
-    
-    .relatos article h5 {
-        margin: 0;
-    }
-    
-    .relatos .foto-cliente img {
-        max-width: 100px;
-        max-height: 100px;
-    }
-    
-    .foto-cliente{
-        border-radius: 50%;
-    }
-    
-    .relatos-passo h3 {
-        margin: 0;
-        text-align: center;
-    }
-    
-    .footer-relatos h3 {
-        font-weight: 300;
-    }
-    
-    .footer-relatos img {
-        max-width: 15px!important;
-        padding: 0.5rem;
-    }
-    
-    .footer-relatos a {
-        text-decoration: none;
-        color: #1E1A34;
-    }
-    
-    .sub-titulo {
-        display: flex;
-        flex-flow: row;
-        align-items: center;
-        color: #1E1A34;
-    }
-    
-    .sub-titulo h1 {
-        font-size: 1.8rem;
-        margin: 0;
-        max-width: 200px;
-        font-family: 'Russo One', sans-serif;
-    }
-    
-    .sub-titulo h1:first-child {
-        font-size: 5rem;
-        padding-right: 0.5rem;
-    }
-    
-    .como-trabalhamos article p {
-        font-weight: 200;
-        font-size: 1.2rem;
-    }
-    
-    .como-trabalhamos article:first-child div:nth-child(2) {
-        padding: 0 1rem;
-        background-image: linear-gradient(#85409A, #B6428A);
-        border-radius: 50px;
-        font-style: italic;
-        color: #FFFFFF;
-    }
-    
-    .como-trabalhamos article:last-child div:nth-child(2) {
-        padding: 0 1rem;
-        background-image: linear-gradient(#59ABB2, #6BC78F);
-        border-radius: 50px;
-        font-style: italic;
-        color: #FFFFFF;
-    }
-    
-    footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem;
-        background-image: linear-gradient(#58AAB6, #6DC98E);
-    }
-    
-    footer a {
-        padding: 0 0.5rem;
-    }
-    /*Media Query*/
-    
-    @media screen and (max-width: 727px) {
-        .topnav a:not(:first-child) {
-            display: none;
-        }
-        .topnav a.icon {
-            float: right;
-            display: block;
-        }
-    }
-    
-    @media screen and (max-width: 727px) {
-        body {
-            background-image: url('img/capa\ cel.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-        .main.responsive {
-            display: none;
-        }
-        .topnav.responsive {
-            height: 100vh;
-            position: relative;
-        }
-        .topnav.responsive .icon {
-            position: absolute;
-            right: 10px;
-            top: 35px;
-        }
-        .topnav.responsive a {
-            float: none;
-            display: flex;
-            flex-direction: column;
-            text-align: left;
-            padding: 1rem 1rem 2rem 1rem;
-            font-size: 2rem;
-        }
-        .hover-topbar:hover {
-            background-color: #FFFFFF;
-            color: #1E1A34;
-        }
-        .logo {
-            width: 100px!important;
-            height: 80px;
-        }
-        .topnav.responsive {
-            display: block;
-            overflow: hidden;
-            color: #1E1A34;
-            background-color: #FFFFFF;
-        }
-        .logo-main {
-            display: none;
-        }
-        .frase-1 {
-            margin: 40rem 0 0 0;
-            padding: 5rem 2rem;
-            font-size: 0.8rem;
-            background-color: #FFFFFF;
-        }
-        .frase-1 img {
-            width: 50px!important;
-        }
-        .titulo-aprset-2,
-        .titulo-projetos,
-        .titulo-relatos,
-        .footer-relatos,
-        .titulo-trabalhamos {
-            font-size: 0.8rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            max-width: 250px;
-        }
-        .titulo-aprset-2 img,
-        .titulo-projetos img {
-            width: 50px!important;
-            padding: 1rem;
-        }
-        .titulo-relatos img {
-            padding: 1rem;
-        }
-        .titulo-trabalhamos img {
-            max-height: 45px!important;
-            max-width: 28px!important;
-        }
-        .footer-relatos img {
-            display: none;
-        }
-        .aside-right {
-            font-size: 0.8rem;
-        }
-        .mascotes img {
-            width: 100%;
-            max-width: 100px;
-            padding: 1rem;
-        }
-        .fani-nando-glid,
-        .projetos aside img {
-            width: 100%;
-            height: 100%;
-            max-width: 250px;
-            padding: 0;
-        }
-        .mascotes {
-            padding: 1rem 0;
-        }
-        .fani-nando-glid {
-            padding-right: 2.7rem;
-        }
-        .projetos aside img {
-            padding-top: 1.5rem;
-        }
-        .aside-left {
-            padding: 0 5rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        article:last-child {
-            padding-bottom: 3rem;
-        }
-        .foto-side p {
-            position: relative;
-            font-weight: 400;
-            font-size: 0.7rem;
-        }
-        .relatos article {
-            align-items: center;
-        }
-        .relatos .foto-cliente img {
-            max-width: 90px;
-            max-height: 90px;
-        }
-        .relatos-passo {
-            font-size: 1rem;
-        }
-    }
-    
-    @media screen and (min-width: 728px) {
-        aside {
-            display: flex;
-            flex-flow: row;
-            justify-content: space-between;
-        }
-        aside article {
-            display: flex;
-            flex: 0 0 40%;
-        }
-        .apresentacao-2 h1,
-        .projetos h1,
-        .relatos h1 {
-            font-family: 'Russo One', sans-serif;
-            margin: 0 2rem;
-        }
-        .apresentacao-2,
-        .projetos,
-        .relatos,
-        .como-trabalhamos {
-            padding: 3rem;
-        }
-        .relatos>* {
-            padding: 1.5rem 0;
-        }
-        .aside-left {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .como-trabalhamos aside article:last-child {
-            margin-top: 5%;
-        }
-        .como-trabalhamos {
-            background-image: url('img/banner-como-trabalhamos-big.jpg');
-            background-size: cover;
-            background-position: center;
-        }
-        .avatar div div {
-            background-repeat: no-repeat;
-            background-position: center;
-            margin: 16px;
-            max-width: 194px;
-            max-height: 194px;
-            background-size: cover;
-            width: 194px;
-            height: 194px;
-        }
-        .avatar div:first-child div {
-            background-image: url('img/fani\ degrade.png');
-        }
-        .avatar div:last-child div {
-            background-image: url('img/nando\ degrade.png');
-        }
-        .avatar a:hover img {
-            opacity: 0;
-            -webkit-transition: opacity 500ms ease-in;
-            -moz-transition: opacity 500ms ease-in;
-            -o-transition: opacity 500ms ease-in;
-            -ms-transition: opacity 500ms ease-in;
-            transition: opacity 500ms ease-in;
-        }
-        .avatar a img {
-            padding: 0;
-            -webkit-transition: opacity 500ms ease-in;
-            -moz-transition: opacity 500ms ease-in;
-            -o-transition: opacity 500ms ease-in;
-            -ms-transition: opacity 500ms ease-in;
-            transition: opacity 500ms ease-in;
-        }
-    }
+  body {
+      margin: 0;
+      background-image: url('img/capa__aaa.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .topnav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row!important;
+      overflow: hidden;
+      color: #1E1A34;
+  }
+  
+  .topnav a,
+  .topnav img {
+      font-weight: 600;
+      float: left;
+      display: block;
+      color: #1E1A34;
+      text-align: center;
+      padding: 0 0.8rem;
+      text-decoration: none;
+      font-size: 2.5rem;
+      padding: 1rem 0;
+  }
+  
+  .topnav img {
+      padding: 1rem 0;
+      width: 100%;
+  }
+  
+  .topnav div a {
+      padding: 15px 5px;
+  }
+  
+  .topnav div {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+  }
+  
+  .hover-topbar:hover {
+      padding: 1rem 0.8rem;
+      border-radius: 20px 20px 20px 0;
+      background-color: #1E1A34;
+      color: #FFFFFF;
+  }
+  
+  .topnav .icon {
+      display: none;
+      color: #1E1A34;
+  }
+  
+  .apresentacao-1 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      padding-top: 2.5rem;
+  }
+  
+  .frase-1 {
+      font-size: 1rem;
+      padding: 20rem 0 20rem 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+  
+  .frase-1 h1 span {
+      color: #E0457B;
+  }
+  
+  .apresentacao-2,
+  .projetos {
+      color: #FFFFFF;
+  }
+  
+  .apresentacao-2,
+  .projetos,
+  .relatos,
+  .como-trabalhamos {
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      flex-flow: column;
+      font-weight: 600;
+      font-size: 1.5rem;
+  }
+  
+  .apresentacao-2,
+  .projetos {
+      background-image: url('img/Banner-Apresentacao-2.jpg');
+  }
+  
+  .relatos {
+      background-color: white;
+  }
+  
+  .como-trabalhamos {
+      background-image: url('img/banner-como-trabalhamos.jpg');
+      background-size: contain;
+  }
+  
+  .como-trabalhamos article div:nth-child(2) {
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .apresentacao-2 h1,
+  .projetos h1,
+  .titulo-relatos h1,
+  .titulo-trabalhamos h1 {
+      font-family: 'Russo One', sans-serif;
+      margin: 0;
+      text-align: center;
+  }
+  
+  .titulo-aprset-2,
+  .titulo-projetos,
+  .titulo-relatos,
+  .footer-relatos,
+  .titulo-trabalhamos {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+  }
+  
+  aside article {
+      display: flex;
+      flex-flow: column;
+      padding: 0 5rem;
+  }
+  
+  .mascotes {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+  }
+  
+  .avatar {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      justify-content: center;
+      flex: 0 0 40%;
+  }
+  
+  .mascotes img {
+      width: 100%;
+      max-width: 194px;
+      padding: 1rem;
+  }
+  
+  .relatos-passo {
+      text-align: center;
+  }
+  
+  .avatar div h3 {
+      margin: 0;
+  }
+  
+  .aside-left {
+      padding: 5rem 5rem 0 0;
+  }
+  
+  .foto-side {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+  }
+  
+  .fani-nando-glid {
+      width: 100%;
+      max-width: 753px;
+      max-height: 756px;
+  }
+  
+  .foto-side p {
+      position: absolute;
+      bottom: 0;
+      font-weight: 400;
+      font-size: 1rem;
+  }
+  
+  .projetos aside img {
+      width: 100%;
+      max-width: 565px;
+      max-height: 514px;
+      padding: 3rem 0;
+  }
+  
+  .relatos article {
+      align-items: flex-start;
+  }
+  
+  .relatos article p {
+      font-weight: 200;
+      font-size: 1rem;
+  }
+  
+  .relatos article a {
+      text-decoration: none;
+      color: #1E1A34;
+  }
+  
+  .relatos article h5 {
+      margin: 0;
+  }
+  
+  .relatos .foto-cliente img {
+      max-width: 100px;
+      max-height: 100px;
+  }
+  
+  .foto-cliente {
+      border-radius: 50%;
+  }
+  
+  .relatos-passo h3 {
+      margin: 0;
+      text-align: center;
+  }
+  
+  .footer-relatos h3 {
+      font-weight: 300;
+  }
+  
+  .footer-relatos img {
+      max-width: 15px!important;
+      padding: 0.5rem;
+  }
+  
+  .footer-relatos a {
+      text-decoration: none;
+      color: #1E1A34;
+  }
+  
+  .sub-titulo {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      color: #1E1A34;
+  }
+  
+  .sub-titulo h1 {
+      font-size: 1.8rem;
+      margin: 0;
+      max-width: 200px;
+      font-family: 'Russo One', sans-serif;
+  }
+  
+  .sub-titulo h1:first-child {
+      font-size: 5rem;
+      padding-right: 0.5rem;
+  }
+  
+  .como-trabalhamos article p {
+      font-weight: 200;
+      font-size: 1.2rem;
+  }
+  
+  .como-trabalhamos article:first-child div:nth-child(2) {
+      padding: 0 1rem;
+      background-image: linear-gradient(#85409A, #B6428A);
+      border-radius: 50px;
+      font-style: italic;
+      color: #FFFFFF;
+  }
+  
+  .como-trabalhamos article:last-child div:nth-child(2) {
+      padding: 0 1rem;
+      background-image: linear-gradient(#59ABB2, #6BC78F);
+      border-radius: 50px;
+      font-style: italic;
+      color: #FFFFFF;
+  }
+  
+  footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      background-image: linear-gradient(#58AAB6, #6DC98E);
+  }
+  
+  footer a {
+      padding: 0 0.5rem;
+  }
+  /*Media Query*/
+  
+  @media screen and (max-width: 727px) {
+      .topnav a:not(:first-child) {
+          display: none;
+      }
+      .topnav a.icon {
+          float: right;
+          display: block;
+      }
+  }
+  
+  @media screen and (max-width: 727px) {
+      body {
+          background-image: url('img/capa\ cel.png');
+          background-size: cover;
+          background-repeat: no-repeat;
+      }
+      .main.responsive {
+          display: none;
+      }
+      .topnav.responsive {
+          height: 100vh;
+          position: relative;
+      }
+      .topnav.responsive .icon {
+          position: absolute;
+          right: 10px;
+          top: 35px;
+      }
+      .topnav.responsive a {
+          float: none;
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          padding: 1rem 1rem 2rem 1rem;
+          font-size: 2rem;
+      }
+      .hover-topbar:hover {
+          background-color: #FFFFFF;
+          color: #1E1A34;
+      }
+      .logo {
+          width: 100px!important;
+          height: 80px;
+      }
+      .topnav.responsive {
+          display: block;
+          overflow: hidden;
+          color: #1E1A34;
+          background-color: #FFFFFF;
+      }
+      .logo-main {
+          display: none;
+      }
+      .frase-1 {
+          margin: 40rem 0 0 0;
+          padding: 5rem 2rem;
+          font-size: 0.8rem;
+          background-color: #FFFFFF;
+      }
+      .frase-1 img {
+          width: 50px!important;
+      }
+      .titulo-aprset-2,
+      .titulo-projetos,
+      .titulo-relatos,
+      .footer-relatos,
+      .titulo-trabalhamos {
+          font-size: 0.8rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          max-width: 250px;
+      }
+      .titulo-aprset-2 img,
+      .titulo-projetos img {
+          width: 50px!important;
+          padding: 1rem;
+      }
+      .titulo-relatos img {
+          padding: 1rem;
+      }
+      .titulo-trabalhamos img {
+          max-height: 45px!important;
+          max-width: 28px!important;
+      }
+      .footer-relatos img {
+          display: none;
+      }
+      .aside-right {
+          font-size: 0.8rem;
+      }
+      .mascotes img {
+          width: 100%;
+          max-width: 100px;
+          padding: 1rem;
+      }
+      .fani-nando-glid,
+      .projetos aside img {
+          width: 100%;
+          height: 100%;
+          max-width: 250px;
+          padding: 0;
+      }
+      .mascotes {
+          padding: 1rem 0;
+      }
+      .fani-nando-glid {
+          padding-right: 2.7rem;
+      }
+      .projetos aside img {
+          padding-top: 1.5rem;
+      }
+      .aside-left {
+          padding: 0 5rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+      article:last-child {
+          padding-bottom: 3rem;
+      }
+      .foto-side p {
+          position: relative;
+          font-weight: 400;
+          font-size: 0.7rem;
+      }
+      .relatos article {
+          align-items: center;
+      }
+      .relatos .foto-cliente img {
+          max-width: 90px;
+          max-height: 90px;
+      }
+      .relatos-passo {
+          font-size: 1rem;
+      }
+  }
+  
+  @media screen and (min-width: 728px) {
+      aside {
+          display: flex;
+          flex-flow: row;
+          justify-content: space-between;
+      }
+      aside article {
+          display: flex;
+          flex: 0 0 40%;
+      }
+      .apresentacao-2 h1,
+      .projetos h1,
+      .relatos h1 {
+          font-family: 'Russo One', sans-serif;
+          margin: 0 2rem;
+      }
+      .apresentacao-2,
+      .projetos,
+      .relatos,
+      .como-trabalhamos {
+          padding: 3rem;
+      }
+      .relatos>* {
+          padding: 1.5rem 0;
+      }
+      .aside-left {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      .como-trabalhamos aside article:last-child {
+          margin-top: 5%;
+      }
+      .como-trabalhamos {
+          background-image: url('img/banner-como-trabalhamos-big.jpg');
+          background-size: cover;
+          background-position: center;
+      }
+      .avatar div div {
+          background-repeat: no-repeat;
+          background-position: center;
+          margin: 16px;
+          max-width: 194px;
+          max-height: 194px;
+          background-size: cover;
+          width: 194px;
+          height: 194px;
+      }
+      .avatar div:first-child div {
+          background-image: url('img/fani\ degrade.png');
+      }
+      .avatar div:last-child div {
+          background-image: url('img/nando\ degrade.png');
+      }
+      .avatar a:hover img {
+          opacity: 0;
+          -webkit-transition: opacity 500ms ease-in;
+          -moz-transition: opacity 500ms ease-in;
+          -o-transition: opacity 500ms ease-in;
+          -ms-transition: opacity 500ms ease-in;
+          transition: opacity 500ms ease-in;
+      }
+      .avatar a img {
+          padding: 0;
+          -webkit-transition: opacity 500ms ease-in;
+          -moz-transition: opacity 500ms ease-in;
+          -o-transition: opacity 500ms ease-in;
+          -ms-transition: opacity 500ms ease-in;
+          transition: opacity 500ms ease-in;
+      }
+  }
