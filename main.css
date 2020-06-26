@@ -488,6 +488,9 @@
       .como-trabalhamos aside article:last-child {
           margin-top: 5%;
       }
+      .como-trabalhamos p {
+          font-weight: 400;
+      }
       .como-trabalhamos {
           background-image: url('img/banner-como-trabalhamos-big.jpg');
           background-size: cover;
