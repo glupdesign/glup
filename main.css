@@ -282,7 +282,7 @@
   }
   
   .como-trabalhamos article p {
-      font-weight: 200;
+      font-weight: 400;
       font-size: 1.2rem;
   }
   
@@ -487,9 +487,6 @@
       }
       .como-trabalhamos aside article:last-child {
           margin-top: 5%;
-      }
-      .como-trabalhamos p {
-          font-weight: 400;
       }
       .como-trabalhamos {
           background-image: url('img/banner-como-trabalhamos-big.jpg');
