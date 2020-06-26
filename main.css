@@ -123,6 +123,10 @@
       justify-content: center;
   }
   
+  .como-trabalhamos article div:nth-child(2) p {
+      font-size: 0.95rem;
+  }
+  
   .apresentacao-2 h1,
   .projetos h1,
   .titulo-relatos h1,
