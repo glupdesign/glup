@@ -315,14 +315,6 @@
   }
   /*Media Query*/
   
-  @media screen and (max-width: 479px) {
-      body {
-          background-image: url('img/capa\ cel\ small.png.png');
-          background-size: cover;
-          background-repeat: no-repeat;
-      }
-  }
-  
   @media screen and (max-width: 727px) {
       .topnav a:not(:first-child) {
           display: none;
@@ -459,6 +451,14 @@
       }
       .relatos-passo {
           font-size: 1rem;
+      }
+  }
+  
+  @media screen and (max-width: 480px) {
+      body {
+          background-image: url('img/capa\ cel\ small.png');
+          background-size: cover;
+          background-repeat: no-repeat;
       }
   }
   
