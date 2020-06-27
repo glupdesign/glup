@@ -464,6 +464,9 @@
           background-repeat: no-repeat;
           background-attachment: fixed;
       }
+      .main {
+          display: block;
+      }
   }
   
   @media screen and (min-width: 728px) {
