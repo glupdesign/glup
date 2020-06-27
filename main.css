@@ -462,6 +462,7 @@
           background-image: url('img/capa\ cel\ small.png');
           background-size: cover;
           background-repeat: no-repeat;
+          background-attachment: fixed;
       }
   }
   
