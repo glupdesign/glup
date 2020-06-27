@@ -87,7 +87,7 @@ textarea {
     display: flex;
     flex-direction: row;
     padding: 0.5rem 0 0 0;
-    width: 30%;
+    max-width: 380px;
 }
 
 .checkbox p {
