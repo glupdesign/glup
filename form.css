@@ -85,12 +85,15 @@ textarea {
 
 .checkbox {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 0.5rem 0 0 0;
+    width: 30%;
 }
 
-.options {
-    width: 30%;
+.checkbox p {
+    margin: 0;
+    width: 100%;
+    padding: 1rem 0;
 }
 
 .checkbox input {
@@ -113,7 +116,7 @@ textarea {
     padding: 1rem 0;
 }
 
-.options div {
+.checkbox div {
     border-radius: 100px;
     display: flex;
     align-items: center;
@@ -152,5 +155,11 @@ button {
     }
     label {
         width: 100%;
+    }
+    .checkbox,
+    .options {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
