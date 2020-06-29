@@ -79,6 +79,7 @@ h3 {
 section {
     background-image: url("/img/backgroung-pg-sobre.jpg");
     background-size: cover;
+    background-repeat: repeat;
 }
 
 section h1 {
