@@ -196,11 +196,25 @@
         justify-content: center;
         align-items: center;
         padding: 1rem;
+        flex-direction: column;
         background-image: linear-gradient(#58AAB6, #6DC98E);
+    }
+    
+    footer div {
+        flex-direction: row;
+    }
+    
+    footer p {
+        color: #1E1A34;
+        margin: 0;
+        padding-top: 0.5rem;
+        font-weight: 200;
     }
     
     footer a {
         padding: 0 0.5rem;
+        text-decoration: none;
+        color: #1E1A34;
     }
     /*Media Query*/
     
