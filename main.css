@@ -484,7 +484,7 @@
       aside article {
           display: flex;
           flex-flow: column;
-          padding: 0 1rem;
+          padding: 0 3rem;
       }
   }
   
