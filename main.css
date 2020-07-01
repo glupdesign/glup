@@ -479,13 +479,12 @@
           background-size: cover;
           background-repeat: no-repeat;
           background-attachment: fixed;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-      }
-      .main {
           display: block;
+      }
+      aside article {
+          display: flex;
+          flex-flow: column;
+          padding: 0 1rem;
       }
   }
   
