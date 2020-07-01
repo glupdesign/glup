@@ -74,7 +74,7 @@
         color: #1E1A34;
     }
     
-    img {
+    .imagens img {
         width: 100%;
         padding: 0;
     }
@@ -184,6 +184,7 @@
     .footer-relatos img {
         max-width: 15px!important;
         padding: 0.5rem;
+        width: initial;
     }
     
     .footer-relatos a {

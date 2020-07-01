@@ -123,6 +123,7 @@
   }
   
   .como-trabalhamos article div:nth-child(2) {
+      display: flex;
       align-items: center;
       justify-content: center;
   }
@@ -343,7 +344,7 @@
       }
   }
   
-  @media screen and (min-width: 479px) {
+  @media screen and (min-width: 479px) and (max-width: 727px) {
       body {
           background-image: url('img/capa\ cel.png');
           background-size: cover;
