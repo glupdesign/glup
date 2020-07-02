@@ -118,6 +118,22 @@
       background-color: white;
   }
   
+  #pontos {
+      display: none;
+  }
+  
+  #btnLeiaMais {
+      display: none;
+  }
+  
+  #pontos1 {
+      display: none;
+  }
+  
+  #btnLeiaMais1 {
+      display: none;
+  }
+  
   .como-trabalhamos {
       background-image: url('img/banner-como-trabalhamos.jpg');
       background-size: contain;
@@ -229,6 +245,7 @@
   .relatos article p {
       font-weight: 200;
       font-size: 1rem;
+      margin-bottom: 0;
   }
   
   .relatos article a {
@@ -478,6 +495,30 @@
       }
       .relatos-passo {
           font-size: 1rem;
+      }
+      .btnLeiaMais {
+          border: none;
+          background-color: none;
+          margin-bottom: 1rem;
+          width: 100%;
+      }
+      #mais {
+          display: none;
+      }
+      #pontos {
+          display: initial;
+      }
+      #btnLeiaMais {
+          display: initial;
+      }
+      #mais1 {
+          display: none;
+      }
+      #pontos1 {
+          display: initial;
+      }
+      #btnLeiaMais1 {
+          display: initial;
       }
   }
   
