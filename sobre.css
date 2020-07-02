@@ -176,7 +176,9 @@ aside p {
     text-align: center;
 }
 
-.relatos-passo h3 {
+.relatos-passo h3,
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     text-align: center;
 }
@@ -193,9 +195,14 @@ aside p {
     font-weight: 300;
 }
 
+.footer-relatos h4 {
+    font-weight: initial;
+}
+
 .footer-relatos img {
     max-width: 15px!important;
     padding: 0.5rem;
+    width: initial;
 }
 
 .footer-relatos a {
@@ -315,6 +322,12 @@ footer a {
     aside p {
         margin: 0;
         padding: 0;
+    }
+    .relatos-passo {
+        font-size: 1rem;
+    }
+    .footer-relatos {
+        flex-direction: row;
     }
 }
 

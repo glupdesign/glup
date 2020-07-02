@@ -281,6 +281,9 @@
         .relatos-passo {
             font-size: 1rem;
         }
+        .footer-relatos {
+            flex-direction: row;
+        }
         .titulo-trabalhamos {
             font-size: 0.8rem;
             display: flex;
@@ -289,9 +292,6 @@
             align-items: center;
             max-width: 250px;
             padding: 0.5rem;
-        }
-        .footer-relatos img {
-            display: none;
         }
     }
     

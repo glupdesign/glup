@@ -412,6 +412,9 @@
           align-items: center;
           max-width: 250px;
       }
+      .footer-relatos {
+          flex-direction: row;
+      }
       .titulo-aprset-2 img,
       .titulo-projetos img {
           width: 50px!important;
