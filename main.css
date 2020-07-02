@@ -480,6 +480,12 @@
       article:last-child {
           padding-bottom: 3rem;
       }
+      .projetos article {
+          padding-bottom: 0;
+      }
+      .projetos aside:last-child {
+          padding-bottom: 3rem;
+      }
       .foto-side p {
           position: relative;
           font-weight: 400;
