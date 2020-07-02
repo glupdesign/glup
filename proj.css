@@ -265,6 +265,10 @@
         .logo {
             width: 100px!important;
             height: 80px;
+            opacity: 0;
+        }
+        .topnav.responsive .logo {
+            opacity: 1;
         }
         .topnav.responsive {
             display: block;
