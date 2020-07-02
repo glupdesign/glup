@@ -136,9 +136,15 @@
         max-width: 350px;
     }
     
-    .imagens {
+    .amorim .imagens,
+    .andreia .imagens {
         display: block;
         font-size: 0;
+    }
+    
+    .anne .imagens {
+        display: block;
+        font-size: initial;
     }
     
     .imagens p {
