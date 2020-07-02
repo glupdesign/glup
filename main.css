@@ -528,11 +528,14 @@
   }
   
   @media screen and (max-width: 480px) {
-      body {
+      .apresentacao-1 {
           background-image: url('img/capa\ cel\ small.png');
-          background-size: cover;
-          background-repeat: no-repeat;
+          background-size: contain;
           background-attachment: fixed;
+          background-repeat: no-repeat;
+      }
+      body {
+          background-image: none;
           display: block;
       }
       aside article {
