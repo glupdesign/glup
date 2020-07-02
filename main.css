@@ -245,7 +245,6 @@
   .relatos article p {
       font-weight: 200;
       font-size: 1rem;
-      margin-bottom: 0;
   }
   
   .relatos article a {
@@ -498,9 +497,9 @@
       }
       .btnLeiaMais {
           border: none;
-          background-color: none;
-          margin-bottom: 1rem;
-          width: 100%;
+          background-color: #FFFFFF;
+          padding: 0;
+          color: #0000EE;
       }
       #mais {
           display: none;
