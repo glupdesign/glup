@@ -428,6 +428,10 @@
           align-items: center;
           max-width: 250px;
       }
+      .comment-pessoa {
+          display: flex;
+          flex-direction: column-reverse;
+      }
       .footer-relatos {
           flex-direction: row;
       }
