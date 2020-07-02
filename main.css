@@ -431,6 +431,8 @@
       .comment-pessoa {
           display: flex;
           flex-direction: column-reverse;
+          justify-content: center;
+          align-items: center;
       }
       .footer-relatos {
           flex-direction: row;
@@ -496,6 +498,7 @@
       }
       .relatos article {
           align-items: center;
+          padding-bottom: 2rem;
       }
       .relatos .foto-cliente img {
           max-width: 90px;
