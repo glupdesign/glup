@@ -6,22 +6,24 @@
         box-sizing: inherit;
     }
     
-    .amorim {
+    body {
         margin: 0;
-        background-image: url('img/Artboard_10_copy_2_b.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     
+    .amorim {
+        background-image: url('img/Artboard_10_copy_2_b.png');
+    }
+    
     .andreia {
-        margin: 0;
         background-image: url('img/Grupo_de_m_scara_4_cv_pattern.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .anne {
+        background-image: url('img/Prancheta\ 10.png');
     }
     
     .topnav {
@@ -137,6 +139,11 @@
     .imagens {
         display: block;
         font-size: 0;
+    }
+    
+    .imagens p {
+        font-size: 1.2rem;
+        text-align: center;
     }
     
     .nav-job {
