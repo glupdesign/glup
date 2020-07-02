@@ -9,7 +9,7 @@
   body {
       margin: 0;
       background-image: url('img/formato\ bg\ site.png');
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
