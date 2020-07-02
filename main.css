@@ -8,9 +8,8 @@
   
   body {
       margin: 0;
-      background-image: url('img/capa__aaa.png');
+      background-image: url('img/formato\ bg\ site.png');
       background-size: contain;
-      background-position: center;
       background-repeat: no-repeat;
       background-attachment: fixed;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -615,5 +614,12 @@
           -o-transition: opacity 500ms ease-in;
           -ms-transition: opacity 500ms ease-in;
           transition: opacity 500ms ease-in;
+      }
+  }
+  
+  @media screen and (min-width: 2560px) {
+      body {
+          background-image: url('/img/resolução\ ultra.png');
+          background-size: cover;
       }
   }
