@@ -9,8 +9,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <script src="navBar.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <title>Sobre seu projeto | Glup</title>
 </head>
+
+<script>
+    $(function() {
+    $('#meuDiv').hide();
+
+    $('#encontro').change(function() {
+        if ($(this).val() === 'outro') {
+            $('#meuDiv').show();
+            $('#encontro').hide();
+        }
+    });
+
+    $('#cancel').click(function () {
+        $('#encontro').show();
+        $('#encontro').val('');
+        $('#meuDiv').hide();
+    });
+});
+</script>
 
 <body>
     <a href="/index.html">
@@ -42,6 +62,20 @@
                 Onde você mora?
                 <input type="text" name="cidade" required>
             </label>
+            <label for="encontro">Onde nos encontrou?
+                <select name="encontro" id="encontro" required>
+                    <option value="" selected disabled hidden>Escolha um</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="google">Google</option>
+                    <option value="insta">Instagram</option>
+                    <option value="indicacao">Indicação</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <div id="meuDiv">
+                    <input type="text"/>
+                    <button type="button" id="cancel">Cancelar</button>
+                </div>                
+            </label>
         </div>
 
         <h2>Sobre a empresa.</h2>
@@ -69,6 +103,16 @@
             <label>
                 Para quando precisa o seu projeto?
                 <input type="text" name="prazo" required>
+            </label>
+            <label for="empresa">Qual o porte da sua empresa?
+                <select name="empresa" id="empresa" required>
+                    <option value="" selected disabled hidden>Escolha um</option>
+                    <option value="liberal">Profissional Liberal</option>
+                    <option value="micro">Micro (2-9 funcionários)</option>
+                    <option value="pequena">Pequena (10-49 funcionários)</option>
+                    <option value="media">Média (50-100 funcionários)</option>
+                    <option value="grande">Grande (Mais de 100 funcionários)</option>
+                </select>               
             </label>
         </div>
 
@@ -122,10 +166,10 @@
         </div>
 
         <label class="txt-area">
-            E finalmente, nos dê mais detalhes sobre o projeto e tamém o que precisa.
+            E finalmente, nos dê mais detalhes sobre o projeto e também o que precisa.
             <textarea name="detalhes" rows="20"></textarea>
         </label>
-        <button type="submit">Enviar meu pedido!</button>
+        <button type="submit" class="enviar">Enviar meu pedido!</button>
     </form>
 </body>
 

@@ -226,8 +226,11 @@
   }
   
   .foto-side p {
+      width: 80%;
+      text-align: center;
       position: absolute;
       bottom: 0;
+      right: 0;
       font-weight: 400;
       font-size: 1rem;
       margin: 0 1rem;
@@ -306,10 +309,11 @@
   }
   
   .como-trabalhamos article p {
+      width: 90%;
       font-weight: 400;
       font-size: 1.2rem;
   }
-  
+
   .como-trabalhamos article:first-child div:nth-child(2) {
       padding: 0 1rem;
       background-image: linear-gradient(#85409A, #B6428A);
@@ -325,6 +329,11 @@
       font-style: italic;
       color: #FFFFFF;
   }
+
+  .descricao{
+    display: flex;
+    justify-content: center;
+ }
   
   footer {
       display: flex;
