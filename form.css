@@ -73,13 +73,19 @@ input, select {
 }
 
 #meuDiv input{
-    width: 50%;
+    width: 70%;
     margin: 0;
 }
 
 #meuDiv{
  display: flex;
  flex-direction: row;
+ justify-content: space-between;
+ width: 90%;
+}
+
+#meuDiv div{
+    width: 90%;
 }
 
 textarea {
@@ -162,7 +168,6 @@ textarea {
     border-radius: 100px;
     border: none;
     cursor: pointer;
-    margin: 0 0.8rem;
 }
 
 @media screen and (max-width: 480px) {

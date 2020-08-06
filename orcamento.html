@@ -14,22 +14,22 @@
 </head>
 
 <script>
-    $(function() {
-    $('#meuDiv').hide();
-
-    $('#encontro').change(function() {
-        if ($(this).val() === 'outro') {
-            $('#meuDiv').show();
-            $('#encontro').hide();
-        }
-    });
-
-    $('#cancel').click(function () {
-        $('#encontro').show();
-        $('#encontro').val('');
+    $(function () {
         $('#meuDiv').hide();
+
+        $('#encontro').change(function () {
+            if ($(this).val() === 'outro') {
+                $('#meuDiv').show();
+                $('#encontro').hide();
+            }
+        });
+
+        $('#cancel').click(function () {
+            $('#encontro').show();
+            $('#encontro').val('');
+            $('#meuDiv').hide();
+        });
     });
-});
 </script>
 
 <body>
@@ -55,7 +55,7 @@
                 <input type="text" name="_replyto" required>
             </label>
             <label>
-                Qual o seu núero de celular?
+                Qual o seu número de celular?
                 <input type="tel" name="telefone" placeholder="(44)4 4444 4444" required>
             </label>
             <label>
@@ -76,7 +76,7 @@
                 <div id="meuDiv">
                     <input type="text" name="encontro_outro">
                     <button type="button" id="cancel">Cancelar</button>
-                </div>                
+                </div>
             </div>
         </div>
 
@@ -114,7 +114,7 @@
                     <option value="pequena">Pequena (10-49 funcionários)</option>
                     <option value="media">Média (50-100 funcionários)</option>
                     <option value="grande">Grande (Mais de 100 funcionários)</option>
-                </select>               
+                </select>
             </label>
         </div>
 
