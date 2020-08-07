@@ -560,7 +560,9 @@
       #btnLeiaMais1 {
           display: initial;
       }
-
+      #voltarTopo{
+          display: none;
+      }
       .ad{
         position: relative;
         flex-direction: column;

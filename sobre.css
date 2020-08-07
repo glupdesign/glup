@@ -329,6 +329,9 @@ footer a {
     .footer-relatos {
         flex-direction: row;
     }
+    #voltarTopo{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 728px) {

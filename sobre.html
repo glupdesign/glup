@@ -8,11 +8,52 @@
     <link rel="shortcut icon" href="img/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/86530e25de.js" crossorigin="anonymous"></script>
     <script src="navBar.js"></script>
     <title>Sobre nós</title>
 </head>
 
+<style>
+    #subir {
+        position: fixed;
+        bottom: 3vw;
+        right: 5vw;
+        background-color: #1E1A34;
+        padding: 1rem;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 100px;
+        border: 1px solid #fff;
+        z-index: 10000;
+        width: 1.5rem;
+        height: 1.5rem;
+        display: grid;
+        place-items: center;
+    }
+</style>
+
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('#subir').fadeIn();
+            } else {
+                $('#subir').fadeOut();
+            }
+        });
+
+        $('#subir').click(function () {
+            $('html, body').animate({ scrollTop: 0 }, 'slow');
+            return false;
+        });
+    });
+</script>
+
 <body>
+    <div id="voltarTopo">
+        <a href="#" id="subir"><i class="fas fa-arrow-up"></i></a>
+    </div>
     <nav class="topnav" id="myTopnav">
         <a href="index.html">
             <img src="img/Glup-Azul-Azul-Verde-Sem Fundo.png" class="logo" alt="Glup" title="Glup"></a>

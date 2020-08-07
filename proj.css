@@ -311,6 +311,9 @@
             max-width: 250px;
             padding: 0.5rem;
         }
+        #voltarTopo{
+            display: none;
+        }
     }
     
     @media screen and (min-width: 728px) {
