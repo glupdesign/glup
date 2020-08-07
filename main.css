@@ -360,6 +360,23 @@
       text-decoration: none;
       color: #1E1A34;
   }
+
+  .ad{
+      position: relative;
+      flex-direction: row;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .ad::before{
+      position: absolute;
+      content: "ad";
+      background-color: #ccc;
+      padding: 0.3rem;
+      font-size: 0.8rem;
+      opacity: 50%;
+      color: #1E1A34;
+  }
   /*Media Query*/
   
   @media screen and (max-width: 727px) {
@@ -543,6 +560,18 @@
       #btnLeiaMais1 {
           display: initial;
       }
+
+      .ad{
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+    .ad a{
+        display: flex;
+        justify-content: center;
+    }
   }
   
   @media screen and (max-width: 480px) {
