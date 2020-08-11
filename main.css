@@ -366,6 +366,7 @@
       flex-direction: row;
       display: flex;
       flex-wrap: wrap;
+      border: 1px solid #ccc;
   }
 
   .ad::before{
@@ -377,6 +378,17 @@
       opacity: 50%;
       color: #1E1A34;
   }
+  .ad::after{
+    position: absolute;
+    content: 'Amazon';
+    background-color: #ccc;
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    opacity: 80%;
+    bottom: 0;
+    right: 0;
+    color: #1E1A34;
+}
   /*Media Query*/
   
   @media screen and (max-width: 727px) {
